@@ -1,0 +1,55 @@
+.update {
+  flex: 6;
+  align-items: center;
+  text-align: center;
+
+  .updateWrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .updateTitle {
+      font-size: 24px;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+
+    .updateContainer {
+      display: flex;
+      margin-top: 70px;
+      border-top: 1px solid lightgray;
+      padding-top: 10px;
+    }
+  }
+  .keyFeatures {
+    img {
+      max-width: 60%;
+      max-height: 60%;
+    }
+  }
+  .card {
+    display: flex;
+
+    text-align: center;
+  }
+  .c {
+    padding: 50px;
+    margin-left: 50px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  .ahm {
+    img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+  }
+}
